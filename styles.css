@@ -613,3 +613,9 @@ background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, F
   transition:0.3s ease-in;
   cursor:pointer;
 }
+
+@media screen and (max-width: 1270px){
+  .services_wrapper{
+    grid-template-columns:1fr 1fr;
+  }
+}
